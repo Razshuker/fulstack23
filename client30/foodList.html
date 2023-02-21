@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script defer type="module" src="jsFood/appFood.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>list of food:</h1>
+        <button id="btn_new" class="btn btn-outline-dark">new food</button>
+        <table class="table table-striped table-hover">
+            <thead>
+                <th>#</th>
+                <th>name</th>
+                <th>price</th>
+                <th>cals</th>
+                <th>delete</th>
+            </thead>
+            <tbody id="id_tbody">
+                <!-- <tr>
+                <td>1</td>
+                <td>pizza</td>
+                <td>23</td>
+                <td>800</td>
+                <td><button class="btn btn-danger">&times</button></td>
+            </tr> -->
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
